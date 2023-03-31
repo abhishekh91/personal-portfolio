@@ -1,0 +1,234 @@
+body{
+    background-color: #000000;
+}
+
+.navbar{
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top:30px ;
+}
+
+.navbar-brand{
+    color: #EAEAEA;
+    font-size: 2.5rem;
+    font-family: "montserrat";
+    font-weight: bolder;
+    letter-spacing: -6px;
+}
+.nav-link{
+    float: left;
+    display: block;
+    color: #747474;
+    font-family :cursive;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+.nav-link:hover{
+    color: #ffffff;
+    text-decoration:overline;
+    animation: ease-in 0.5s 0 0 ease-in forwards;
+}
+
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
+
+
+
+
+.home{
+    margin-top: 0px;
+    padding: 7% 15%;
+    background-image: url(gundas.svg);
+    background-repeat: no-repeat;
+}
+.row{
+    text-align: center;
+    margin-top: 100px;
+}
+.home-title{
+    color: #5a5c5e;
+    font-family: 'Iceland', cursive;
+    font-size: 5.5rem;
+}
+.home-subtitle{
+    color: white;
+    font-family: 'Lilita One', cursive;
+
+}
+.name{
+    color: #00ADB5;
+}
+.abhi{
+    position: relative;
+    bottom: 130px;
+    width: 100%;
+}
+
+.about{
+    padding: 4% 10%;
+}
+.about-p{
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    font-family: "montserrat";
+    line-height: 1.5;
+    width: 100%;
+    padding-top: 20px;
+}
+.about-p .brand{
+    color: rgb(249, 113, 113);
+}
+.bg-pattern{
+    width: 90%;
+    margin-right: 100px;
+}
+.services{
+    padding: 7%;
+    display: flex;
+    
+}
+.contact{
+    padding: 7% 15%;
+    text-align: center;
+}
+.contact-me{
+    color: white;
+    padding: 10px;
+}
+.link{
+    border-radius: 50px;
+}
+.insta{
+    width: 8%;
+    padding: 20px;
+}
+.insta:hover{
+    animation: pop 0.3s linear 1;
+}
+.twitter{
+    width: 6%;
+    rotate: 20deg;
+    padding-right: 20px;
+}
+.twitter:hover{
+    rotate:10deg;
+}
+.linkedin{
+    width: 4%;
+    border-radius: 10px;
+    margin-bottom:10px;
+}
+
+
+
+/* skills */
+
+.skills{
+    padding: 7% 15%;
+}
+.skill-title{
+    color: white;
+    font-family: "ubuntu";
+    font-size: 4rem;
+}
+p{
+    color: white;
+    padding: 0px;
+    padding-top: 10px;
+}
+.container{
+    background-color: #747474;
+    padding: 0px;
+}
+.html{
+    background-color: beige;
+    width: 90%;
+    padding: 0px;
+    padding-left: 5px;
+}
+.css{
+    background-color: beige;
+    width: 80%;
+    padding: 0px;
+    padding-left: 5px;
+
+}
+.py{
+    background-color: beige;
+    width: 50%;
+    padding: 0px;
+    padding-left: 5px;
+
+}
+.js{
+    background-color: beige;
+    width: 20%;
+    padding: 0px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+
+}
+
+@keyframes pop{
+    50%  {transform: scale(1.2);}
+  }
+
+
+@media screen and (max-width : 1000px){
+    body{
+        text-align: center;
+
+    }
+    .navbar{
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top:50px ;
+    }
+    .home{
+        margin-top: 0px;
+        padding: 2% 3%;
+        background-image: url(gundas.svg);
+    }
+    .abhi{
+        text-align: center;
+        position: static;
+        bottom: 130px;
+        width: 100%;
+    }
+
+    .about-p{
+        text-align: center;
+    }
+    .insta{
+        width: 15%;
+    }
+    .twitter{
+        width: 12%;
+    }
+    .linkedin{
+        width: 8%;
+    }
+    .html{
+        padding: 0px;
+        padding-left: 0px;
+    }
+    .css{
+        padding: 0px;
+    }
+    .py{
+        padding: 0px;
+        padding-left: 0px;
+    }
+    .js{
+        padding: 0px;
+        padding-bottom: 2px;
+        padding-left: 5px;
+    
+    }
+}
